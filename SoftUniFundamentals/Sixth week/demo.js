@@ -4,6 +4,6 @@ let arr = {
     2:  5
 };
 
-console.log(arr[0]);
+console.log(arr[2]);
 console.log(typeof arr);
 
