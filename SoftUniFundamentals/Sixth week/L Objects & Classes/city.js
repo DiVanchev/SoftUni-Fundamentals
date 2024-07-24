@@ -4,7 +4,6 @@ function solve(city) {
         const value = city[key];
         console.log(`${key} -> ${value}`);
     };
-
 }
 solve({
     name: "Plovdiv",
