@@ -5,7 +5,7 @@ function moviesS(arr) {
         if (commands.includes('addMovie')) {
             const tokens = commands.split('addMovie ');
             const movieName = tokens[1].trim();
-            movies.push({ name: movieName });
+            movies.push({ name: movieName});
 
         } else if (commands.includes('directedBy')) {
             const [movieName, movieDirector] = commands.split(' directedBy ');
