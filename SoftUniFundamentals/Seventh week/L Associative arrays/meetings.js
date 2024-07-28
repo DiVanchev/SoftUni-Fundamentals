@@ -13,7 +13,7 @@ function meetings(arr) {
   }
 
   for (const [day, name] of Object.entries(scheduledMeetings)) {
-    console.log(`${day} -> ${name}`);
+    console.log(`${day} -> ${day[name]}`);
   }
 }
 //meetings(["Monday Peter", "Wednesday Bill", "Monday Tim", "Friday Tim"]);

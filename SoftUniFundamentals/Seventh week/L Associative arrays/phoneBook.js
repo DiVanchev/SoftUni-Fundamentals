@@ -4,7 +4,7 @@ function phoneBook(arr) {
   for (const entry of arr) {
     let [name, number] = entry.split(" ");
     if (dictionary.hasOwnProperty(dictionary[name])) {
-      return;
+      break;
     } else {
     dictionary[name] = number;
     }

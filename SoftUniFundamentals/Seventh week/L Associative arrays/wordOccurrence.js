@@ -14,7 +14,6 @@ function wordOccurrence(arr) {
   for (const [word, count] of evenMoreSorted) {
     console.log(`${word} -> ${count} times`);
   }
-  console.log(sortedWords);
 }
 wordOccurrence([
   "Here",
