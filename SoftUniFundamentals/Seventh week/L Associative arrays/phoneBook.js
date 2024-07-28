@@ -1,9 +1,9 @@
 function phoneBook(arr) {
-  let dictionary = new Map();
+  let dictionary = {};
 
   for (const entry of arr) {
     let [name, number] = entry.split(" ");
-    if (dictionary.has(name)) {
+    if (dictionary.hasOwnProperty(dictionary[name])) {
       return;
     } else {
     dictionary[name] = number;
