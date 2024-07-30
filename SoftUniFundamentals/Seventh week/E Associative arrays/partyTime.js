@@ -1,3 +1,18 @@
+//function solve(arr) {
+//  const partyIdx = arr.indexOf("PARTY");
+//  let guestList = arr.slice(0, partyIdx);
+//
+//  for (let i = partyIdx + 1; i < arr.length; i++) {
+//      const guest = arr[i];
+//      const guestIdx = guestList.indexOf(guest);
+//      guestList.splice(guestIdx, 1);
+//  }
+//
+//  const result = guestList.filter(g => Number.isInteger(+g[0])).concat(guestList.filter(g => !Number.isInteger(+g[0])));
+//  console.log(result.length);
+//  console.log(result.join("\n"));
+//}
+
 function partyTime(arr) {
   const guests = {
     VIP: new Set(),
