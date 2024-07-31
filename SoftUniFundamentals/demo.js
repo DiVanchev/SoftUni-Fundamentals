@@ -16,11 +16,11 @@
 //
 //print('Hello World');
 
-let arr = [3, 8, -1, 5, 2];
-console.log(arr);
-console.log('-----');
-arr.pop()
-console.log(arr);
-console.log('------');
-arr.unshift(2);
-console.log(arr);
+//let arr = [3, 8, -1, 5, 2];
+//console.log(arr);
+//console.log('-----');
+//arr.pop()
+//console.log(arr);
+//console.log('------');
+//arr.unshift(2);
+//console.log(arr);
