@@ -2,10 +2,9 @@ function searchForANumber(mainArr, cringeArr) {
   const [take, deleteIt, searchFor] = cringeArr;
 
   let newArr = mainArr.slice(0, take);
-  newArr.splice(0, deleteIt)
+  newArr.splice(0, deleteIt);
   let numCounter = 0;
-  console.log(newArr);
-  
+
   for (const numbers of newArr) {
     if (numbers === searchFor) {
       numCounter++;
