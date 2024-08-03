@@ -74,8 +74,6 @@ function pirates(arr) {
     }
   }
 }
-
-
 pirates([
   "Nassau||95000||1000",
   "San Juan||930000||1250",

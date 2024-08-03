@@ -24,3 +24,13 @@
 //console.log('------');
 //arr.unshift(2);
 //console.log(arr);
+
+
+//let name = 'John';
+//name += 'R';
+//console.log(name);
+
+
+//let arr = "helloMyNameIs";
+//arr = arr.split('My')
+//console.log(arr);
